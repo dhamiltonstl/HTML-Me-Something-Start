@@ -1,1 +1,8 @@
 /* Write your CSS here! */
+#mainHeading {
+    color: green;
+}
+
+.funParagraph {
+    color: red;
+}
