@@ -1,8 +1,90 @@
 /* Write your CSS here! */
+html {
+    background-color: black;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #mainHeading {
     color: green;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 60%);
+    border-radius: 0px 0px 25px 25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
 .funParagraph {
     color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(0, 0, 0, 60%);
+    border-radius: 25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+img {
+    height: 333px;
+    width: 500px;
+    border-radius: 25px;
+    margin: 15px;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+#images {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    padding-top: 150px;
+    background-image: linear-gradient(to right, green, gold, purple);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    height: 338px;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+#nav {
+    position: fixed;
+    height: fit-content;
+    background-image: url(./images/nola.jpg);
+    width: 1250px;
+    border-bottom: 3px solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
 }
